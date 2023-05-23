@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align:center;
+}
+
+figure img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:auto;
+}
+
+nav {
+  text-align:center;
+}
+
+nav a {
+  padding-left:10px;
+  padding-right:10px;
+  background-color:grey;
+}
+
+figure figcaption {
+  text-align:center;
+  font-size:smaller;
+}
+
+figure ~ p {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+}
+
+section div {
+  float:left;
+  background-color:red;
+  text-align:center;
+  width:25%
+}
+
